@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "28G5SiIG4sDK0OOqXXSAE4knOwPayzYnaN1EyqLuNxU=",
+  "Source": "TrainingGrpcService",
+  "BasePath": "_content/TrainingGrpcService",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

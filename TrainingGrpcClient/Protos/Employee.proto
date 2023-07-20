@@ -1,0 +1,21 @@
+syntax="proto3";
+
+option csharp_namespace="GrpcServer";
+
+service Employee {
+    rpc GetEmployeeInfo (EmployeeLookUpModel) returns (EmployeeModel);
+}
+
+message EmployeeLookUpModel{
+    int32 employeeId = 1;
+}
+
+message EmployeeModel{
+    string firstName = 1;
+    string lastName = 2;
+    string Company = 3;
+    string TrainingProgress = 4;
+    string Team = 5;
+}
+
+ 
